@@ -1,8 +1,8 @@
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/2339/badge.svg)](https://scan.coverity.com/projects/paho-c)
 
-# ![Flomon](https://img.shields.io/badge/FLOMON-blue) C Client Library for the MQTT Protocol
+# ![Flomon](https://img.shields.io/badge/FLOMON-blue) C Client SDK for the MQTT Protocol
 
-This repository contains the source code for the ![Flomon](https://img.shields.io/badge/FLOMON-blue) MQTT C client library.
+This repository contains the source code for the ![Flomon](https://img.shields.io/badge/FLOMON-blue) MQTT C client SDK.
 This code is forked from [![Flomon](https://img.shields.io/badge/Paho-Project-blue)](https://github.com/eclipse/paho.mqtt.c)![Flomon](https://img.shields.io/badge/version-1.3.12-blue).
 This code builds libraries which enable applications to connect to an [![MQTT](https://img.shields.io/badge/MQTT-green)](http://mqtt.org) broker to publish messages, and to subscribe to topics and receive published messages.
 
