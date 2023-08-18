@@ -66,7 +66,7 @@ Some potentially useful blog posts:
 #define ADDRESS     "https://farm.inforzia.io:1883"
 #define CLIENTID    "ExampleClientPub"
 #define TOPIC       "flomon/telemetry"
-#define PAYLOAD     "{\"deviceKey\":\"env-B11\", \"temperature\": 25.7, \"soil_moisture\": 69}"
+#define PAYLOAD     "{\"deviceKey\":\"env-B12\", \"temperature\": 25.7, \"soil_moisture\": 69}"
 #define QOS         1
 #define TIMEOUT     10000L
  
