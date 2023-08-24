@@ -10,20 +10,21 @@ sudo apt install -y build-essential git cmake
 # Clone the Paho MQTT C repository
 git clone https://github.com/eclipse/paho.mqtt.c.git
 
-# Create and navigate to build directory
-mkdir build
-cd build
-
 # Install additional packages
 sudo apt install -y cmake
 
 # Run make install
 sudo make install
 
+# Create and navigate to build directory
+cd paho.mqtt.c
+mkdir build
+cd build
 # Configure the build
 cmake ..
 
 # Add library path to LD_LIBRARY_PATH
+cd /home/flomon/rda-bmt/iot-2/c-sdk-test/iot-sdk-c
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
 echo "Setup completed!"
