@@ -121,7 +121,7 @@ int main(int argc, char* argv[]) {
 If you correctly input the server connection details, the URL of the connected broker will be printed, and the topic and message you specified will be published to the server.
 In this `Sample project`, the `Temperature` and `Soil Moisture` data is sent to the `Flomon IoT Platform` only once.
 ```less
-Broker URL : tcp://farm.inforzia.io:1883 connected.
+Broker URL : mqtt://farm.inforzia.io:1883 connected.
 Message published to topic: flomon/telemetry
 Message : {"deviceKey":"env-B14","temperature":32.52,"soil_moisture":54.39}
 ```
