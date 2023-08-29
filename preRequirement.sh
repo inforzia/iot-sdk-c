@@ -22,9 +22,10 @@ cmake ..
 # Run make install
 make
 sudo make install
-
+cd ../../
 # Add library path to LD_LIBRARY_PATH
-cd /home/flomon/rda-bmt/iot-2/c-sdk-test/iot-sdk-c
+# cd /home/flomon/rda-bmt/iot-2/c-sdk-test/iot-sdk-c
+cd ../../
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
 echo "Setup completed!"
